@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style>
+      .image {
+        display: flex;
+        justify-content: center;
+      }
+      h1 {
+        display: flex;
+        justify-content: center;
+        color: blue;
+      }
+
+      .box {
+        display: flex;
+        width: 1300px;
+        height: 1000px;
+        background-color: rgb(43, 56, 201);
+        margin: 0 auto;
+        color: white;
+        font-size: x-large;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image">
+      <img src="Saylani_logo.png" alt="" />
+    </div>
+    <h1>Students Registration Form</h1>
+    <div class="box">
+      <div class="first_name">
+        <p style="display: inline-block">First Name</p>
+        <div style="display: inline" action="">
+          <input type="text" placeholder="Enter Your First Name" />
+          <p style="display: inline">
+            (Write in Upper Case letters of Alphabets only A-Z)
+          </p>
+          
+        </div>  
+
+
+      <div class="second_name">
+        <p style="display: inline-block">Last Name</p>
+        <form style="display: inline" action="">
+          <input type="text" placeholder="Enter Your First Name" />
+          <p style="display: inline">
+            (Write in Upper Case letters of Alphabets only A-Z)
+          </p>
+
+        <div class="birth">
+            <p style="display: inline-block;">Date Of Birth</p>
+            <input type="date">
+            <p style="display: inline-block;">(Select your DATE OF BIRTH)</p>
+        </div>
+        
+        <div class="email">
+            <p style="display: inline-block">Email</p>
+              <input type="email" placeholder="example@example.com " />
+              <p style="display: inline">
+                (Write your gmail address)
+              </p>
+        </div>
+
+              <div class="phone">
+                <p style="display: inline-block">Phone Number</p>
+                  <input type="number" placeholder="example : ****-*******" maxlength="11" />
+                  <p style="display: inline">
+                    (Write in 11 digits fromat)
+                  </p>
+              </div>
+
+              <div class="gender">
+                <p style="display: inline-block" >Gender : </p>
+                <input type="radio" name="gender" placeholder="" />
+                <p style="display: inline-block;">Male</p>
+                <input type="radio" name="gender" placeholder="" checked />
+                <p style="display: inline">
+                Female
+                </p>
+            </div>
+
+            <div class="address">
+                <p style="display: inline-block ">Address</p>
+                  <textarea name="text" id="" cols="100" rows="05"></textarea>
+                  <p style="display: inline-block">
+                    (Write your complete address)
+                  </p>
+              </div>
+
+              <div class="city">
+                <p style="display: inline-block">City</p>
+                <input type="text" placeholder="Enter your City">
+                <p style="display: inline-block">(Write In capital letters)</p>
+              </div>
+
+              <div class="district">
+                <p style="display: inline-block">Districts</p>
+                <select>
+                    <option value="">Select district</option>
+                    <option value="Karachi East District" selected>Karachi East District.</option>
+                    <option value="Karachi South District">Karachi South District.</option>
+                    <option value="Karachi West District.">Karachi West District.</option>
+                    <option value="Korangi District">Korangi District</option>
+                    <option value="Keamari District">Keamari District</option>
+                    <option value="Karachi Central District.">Karachi Central District</option>
+                </select>
+                <p style="display: inline-block">(Write In capital letters)</p>
+              </div>
+            
+              <div class="hobbies">
+                <p style="display: inline-block">Hobbies : </p>
+                <input type="checkbox" > Watching Movies ?
+                <input type="checkbox" > learning new skills ?
+                <input type="checkbox" > Playing / Watching Cricket ?
+                <input type="checkbox" > other ?
+                <p style="display: inline-block;">please explain : </p>
+                <input type="text">
+                <p style="display: inline-block">(Select any two)</p>
+              </div>
+<div class="courses">
+    <p style="display: inline-block;">Courses : </p>
+    <input type="checkbox"> WMA 
+    <input type="checkbox"> Chatbot 
+    <input type="checkbox"> Bike Repairing 
+    <input type="checkbox"> Block Chain 
+</div>
+<br>
+
+<button type="button" style="font-size: x-large;">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
